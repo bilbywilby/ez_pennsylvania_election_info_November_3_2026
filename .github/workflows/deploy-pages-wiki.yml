@@ -1,7 +1,6 @@
 name: Deploy to Pages & Wiki
 
 on:
-  # Trigger on push to main branch
   push:
     branches: [main]
     paths:
@@ -9,7 +8,6 @@ on:
       - 'docs/**'
       - '.github/workflows/deploy-pages-wiki.yml'
   
-  # Optional: Manual trigger via API/CLI
   workflow_dispatch:
     inputs:
       target:
@@ -17,28 +15,19 @@ on:
         required: true
         default: 'both'
         type: choice
-        options:
-          - pages
-          - wiki
-          - both
+        options: [pages, wiki, both]
 
 jobs:
-  # =====================
-  # JOB 1: Deploy to GitHub Pages
-  # =====================
   deploy-pages:
-    if: github.event.inputs.target == 'pages' || github.event.inputs.target == 'both' || !github.event.inputs.target
+    if: github.event.inputs.target == 'pages' || github.event.inputs.target == 'both' || github.event.action == 'push'
     runs-on: ubuntu-latest
-    
     permissions:
       contents: read
       pages: write
       id-token: write
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -47,47 +36,31 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
-        permissions:
-          pages: write
-          id-token: write
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './public'  # Change to your site folder
+          path: './public'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
-  # =====================
-  # JOB 2: Sync to GitHub Wiki
-  # =====================
   deploy-wiki:
-    if: github.event.inputs.target == 'wiki' || github.event.inputs.target == 'both' || !github.event.inputs.target
+    if: github.event.inputs.target == 'wiki' || github.event.inputs.target == 'both' || github.event.action == 'push'
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       
-      - name: Clone Wiki Repository
+      - name: Sync to Wiki
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # OPSEC: Using PAT instead of GITHUB_TOKEN for cross-repo access
+          WIKI_TOKEN: ${{ secrets.WIKI_SYNC_TOKEN }}
         run: |
-          # Wiki is a separate git repo at {repo}.wiki.git
-          git clone https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.wiki.git wiki-temp
-      
-      - name: Copy docs to wiki
-        run: |
-          cp -r docs/* wiki-temp/ 2>/dev/null || true
-          cd wiki-temp
-          echo "Updated by GitHub Actions at $(date)" >> LAST_SYNC.txt
-      
-      - name: Commit and push wiki changes
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
+          git clone https://x-access-token:${WIKI_TOKEN}@github.com/${{ github.repository }}.wiki.git wiki-temp
+          # Use rsync or targeted cp to avoid overwriting .git metadata
+          cp -R docs/. wiki-temp/
           cd wiki-temp
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
@@ -95,9 +68,6 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "Sync from main repo: ${{ github.sha }}"
           git push origin master
 
-  # =====================
-  # JOB 3: Notification (Optional)
-  # =====================
   notify:
     needs: [deploy-pages, deploy-wiki]
     if: always()
