@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; }
+header { background: #6d4aff; color: white; padding: 20px; border-radius: 8px; }
+nav { margin: 20px 0; }
+nav a { margin-right: 15px; padding: 10px 15px; background: #f0f0f0; text-decoration: none; border-radius: 4px; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+th { background: #6d4aff; color: white; }
+footer { margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px; }
