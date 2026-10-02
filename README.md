@@ -1,3 +1,5 @@
+[![Deploy Static Site to GitHub Pages](https://github.com/bilbywilby/ez_pennsylvania_election_info_November_3_2026/actions/workflows/main.yml/badge.svg)](https://github.com/bilbywilby/ez_pennsylvania_election_info_November_3_2026/actions/workflows/main.yml)
+
 # COMPREHENSIVE ELECTION ANALYSIS — LEHIGH COUNTY, NOVEMBER 2026
 
 ## PART 1: CANDIDATE POLICY POSITION COMPARISONS
