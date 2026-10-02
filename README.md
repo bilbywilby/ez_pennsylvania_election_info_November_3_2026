@@ -603,6 +603,91 @@ Based on Ballotpedia and local sources, these judges serve on the Lehigh County 
 
 *Source: Uploaded judicial retention documents*
 
+---## 1. POLICY POSITION COMPARISONS
+
+### **PA-07: Ryan Mackenzie (R, Incumbent) vs. Bob Brooks (D)**
+
+| Issue | Mackenzie | Brooks |
+|-------|-----------|--------|
+| **Healthcare** | Called ACA "too expensive for many" but voted in Jan 2026 (one of 17 House Republicans) for the Breaking the Gridlock Act to reinstate enhanced ACA subsidies for 3 years; introduced a 2026 pharmacy benefit manager transparency/Rx affordability bill | Wants to restore ACA subsidy and Medicaid cuts (referencing the 2025 reconciliation law), supports "anything closer to universal coverage — expanding the ACA, a public option, or Medicare for All" |
+| **Jobs/Labor** | Supports local manufacturing and tax relief framing | Pro-union; more funding for apprenticeships and trades programs; endorsed by major labor unions |
+| **Minimum Wage** | As state rep, voted in 2023 against raising PA minimum wage from $7.25 to $15 by 2026 (per NAACP PA-07 guide) | Supports worker wage protections |
+| **Abortion** | DCCC (partisan source) cites his state House record of anti-abortion votes without rape/incest exceptions and claims he softened his website language; his campaign has disputed characterization in debates | Supports codifying abortion rights; framed as contrast issue |
+| **Foreign Policy** | Differs from Brooks on tariffs and the Iran conflict (Spotlight PA) | Opposes tariff approach; JStreetPAC-endorsed (pro-diplomacy Israel policy group) |
+
+**Context:** Spotlight PA's series notes both candidates rank cost of living as their top message. A Franklin & Marshall poll (Sept 24, 2026) showed Brooks leading 45–40 among registered voters, with independents at ~20.7% of the sample — notably, ~39% cited the economy as their top issue. (Sources: Spotlight PA, PoliticsPA, NAACP PA-07 guide, DCCC — the last is a partisan committee, so treat its framing accordingly.)
+
+### **Governor: Josh Shapiro (D, Incumbent) vs. Stacy Garrity (R)**
+
+| Issue | Shapiro | Garrity |
+|-------|---------|---------|
+| **Abortion** | Supports abortion rights; has used his office to protect access | Long anti-abortion record; identifies as "pro-life but for exceptions"; now says she would not sign a ban; celebrated Dobbs ruling |
+| **Education** | Backed large public school funding increases (especially for underfunded districts) AND a taxpayer-funded private school voucher program many in his party oppose; EITC/OSTC scholarship caps grew $200M+ under his tenure, though his FY 2026-27 budget froze further increases | Supports public schools but favors charter, cyber charter, and private-school options; would raise EITC cap by another $60M |
+| **Energy** | Incentivizes clean energy transition | Blames Shapiro for high energy costs; wants substantially more natural gas production; wants to pause new data-center projects pending ratepayer protections |
+| **Taxes/Economy** | Investments in workforce programs and infrastructure from existing revenue | Lower corporate and income taxes; regulatory reduction |
+| **Guns** | — | Strongly pro-2nd Amendment; supported concealed-carry without a license |
+
+**Context:** Polling consistently shows Shapiro leading by double digits — NYT/Siena (Sept 22): 57–38; F&M (Aug): 50–25; Bravo Group (July): 53–28. Their only scheduled debate is October 7 on abc27. Shapiro has broken with national Democrats on some issues (vouchers, past opposition to annexation of certain energy regulations), which is worth knowing as an unaffiliated voter. Ken Krawchuk (Libertarian) rounds out the ballot, plus per Ballotpedia, Anthony Dastra also appears as a gubernatorial candidate. (Sources: WHYY, ABC27/Spotlight PA, City & State PA, Ballotpedia)
+
+---
+
+## 3. OUTSIDE SPENDING & DARK MONEY — PA-07
+
+This is where it gets genuinely wild, and where your uploaded documents needed updating.
+
+**Primary season (already concluded):**
+- More than **two dozen outside groups spent $3M+** on the primary (Armchair Lehigh Valley)
+- **Lead Left PAC**, a previously unknown super PAC, spent **$2.2M+ in May alone** — The Morning Call traced its funding to **$30.7 million in conservative money** flowing through intermediaries. Conservative cash effectively meddled in the Democratic primary by attacking Brooks and boosting a rival. This was the "dark money wildcard" of the primary. (Morning Call, Legis1, Lehigh Valley Public Media)
+- The DCCC ran ads defending Brooks during the primary; outside support for his primary totaled roughly $2.1M (Legis1 — note this source's spending attribution reads ambiguously, so treat the exact figure cautiously)
+
+**General election spending:**
+- Through June 30, 2026, candidates and satellite groups had already spent **$9.4 million** — surpassing the entire 2018 race ($8.6M) with four months to go. For reference, the 2024 cycle finished at **$38M**, a district record. (Lehigh Valley Public Media, Ballotpedia)
+- **House Majority PAC (Democratic)** committed **$20M across four PA districts including the Lehigh Valley** (Philadelphia Inquirer, April 2026); a GOP-aligned counterpart planned **$13.5M** in Pennsylvania congressional races (Times Observer)
+- Mackenzie's joint-fundraising network grew to 11 committees, including Battleground PA, Sen. McCormick's committee, and Patriot Protection Council (NRCC-linked); the NRCC directed $76,225 directly to his campaign arm (Lehigh Valley Public Media)
+- Brooks added ties to Dem Rising 2026 (Rep. Raskin-linked), Bob Brooks Victory Fund, and The Democratic Bench Fund, linked to a Democratic dark-money group (Lehigh Valley Public Media)
+
+**⚠️ Discrepancy on pro-Israel money:** Your uploaded file claimed Mackenzie received **$125,102** from pro-Israel PACs. The AIPAC-tracking site Who Funds My Rep, citing FEC filings as of September 2026, puts the figure at **$57,839 total** ($30,030 from AIPAC PAC and its United Democracy Project). I can't reconcile these — your doc's number may include a different methodology or cycle. The FEC's own PA-07 page (fec.gov/data/elections/house/PA/07/2026) is the authoritative source if you want to pull itemized receipts.
+
+Here's the money landscape visually:
+
+```vega-lite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "title": { "text": "PA-07 Fundraising as of June 30, 2026", "subtitle": "Mackenzie holds ~3x cash advantage despite Brooks outraising him in Q2." },
+  "data": { "values": [
+    { "candidate": "Mackenzie (R)", "metric": "Raised this cycle", "amount": 4.36 },
+    { "candidate": "Mackenzie (R)", "metric": "Cash on hand", "amount": 2.94 },
+    { "candidate": "Brooks (D)", "metric": "Raised this cycle", "amount": 2.39 },
+    { "candidate": "Brooks (D)", "metric": "Cash on hand", "amount": 1.02 }
+  ]},
+  "mark": { "type": "bar" },
+  "encoding": {
+    "column": { "field": "candidate", "type": "ordinal", "title": null },
+    "x": { "field": "metric", "type": "ordinal", "axis": { "labels": false }, "title": null },
+    "y": { "field": "amount", "type": "quantitative", "title": "Millions ($)" },
+    "color": { "field": "metric", "type": "nominal", "legend": { "title": "Metric" } },
+    "tooltip": [
+      { "field": "candidate", "type": "nominal" },
+      { "field": "metric", "type": "nominal" },
+      { "field": "amount", "type": "quantitative", "format": ".2f" }
+    ]
+  }
+}
+```
+
+Meanwhile, the governor's race money gap dwarfs everything: Shapiro raised **$13.3M in the June–September period vs. Garrity's $1.8M** — an $11.5M gap in one quarter. Shapiro's report ran 4,922 pages vs. Garrity's 826. He's spent $13.5M on TV ads to her $204K, and is transferring money to down-ballot Democrats to try to flip the legislature. Republicans are compensating by leaning on billionaire Jeff Yass for down-ballot spending. Combined, the two major candidates have raised $60M since 2025, with Shapiro accounting for 91%. (City & State PA, Spotlight PA, PublicSource, GoErie)
+
+---
+
+## 4. JUDICIAL RETENTION — Important Correction
+
+Your voter checklist included "Judicial retention questions: Review PBA ratings for appellate and local judges" for the November 2026 ballot. **I found no evidence any judicial retention questions will appear on your November 2026 ballot.**
+
+Here's why: Pennsylvania holds its statewide judicial elections and retention votes in **odd-numbered years**, not midterm years. The most recent appellate retention elections were November 2025, when voters retained Supreme Court Justices Christine Donohue, Kevin Dougherty, and David Wecht, Commonwealth Court Judge Michael Wojcik, and Superior Court Judge Alice Dubow — all recommended for retention by the Pennsylvania Bar Association, and all retained. (Sources: WHYY, Spotlight PA, Votebeat, State Court Report)
+
+So unless there's something hyper-local I couldn't detect (which you can rule out instantly by checking your address-specific sample ballot via the Lehigh County Voter Registration Office, 610-782-3194), you can strike that checklist item for this election. **Your ballot's questions section will be the three county referendum measures**, plus potentially a municipal question if you're in a township like North Whitehall (open-space referendums).
+
 ---
 
 ## **How to Evaluate Judges on YOUR Ballot**
