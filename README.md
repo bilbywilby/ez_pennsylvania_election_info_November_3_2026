@@ -1,3 +1,333 @@
+# 1. CANDIDATE POLICY POSITION COMPARISONS
+
+## **PA-07 U.S. House: Ryan Mackenzie (R) vs. Bob Brooks (D)**
+
+### **Economic Policy & Taxes**
+
+| Issue | Ryan Mackenzie (R) | Bob Brooks (D) |
+|-------|-------------------|----------------|
+| **Federal Taxes** | Supports tax relief for individuals and businesses; co-sponsored Make American Housing Affordable Act (tax credit for first-time homebuyers) | Focuses on worker wage protections; hasn't proposed specific federal tax changes |
+| **Federal Spending** | Emphasizes spending cuts and deregulation; supports controlled federal spending | Supports restoring Medicaid cuts (OBBBA cut ~$1 trillion over decade); expanding social safety nets |
+| **Tariffs** | Has defended tariff policies contributing to grocery/gas price increases | Opposes tariffs citing impact on prices; differs on Iran war policy |
+| **Housing Costs** | Co-sponsored housing affordability legislation; acknowledges high costs across district | Acknowledges housing costs too high; focuses on worker protections and affordability |
+
+*Source: Spotlight PA, McCall, campaign materials*
+
+---
+
+### **Healthcare**
+
+| Issue | Ryan Mackenzie (R) | Bob Brooks (D) |
+|-------|-------------------|----------------|
+| **ACA/Obamacare** | Called ACA a "disaster"; took $76K+ from health/insurance PACs; voted to increase premiums by avg 102% per DCCC claims | Supports restoring ACA subsidies; expanding coverage through public option or Medicare for All |
+| **Medicaid** | Supported OBBBA with ~$1T in cuts; work requirements added | Wants to restore Medicaid cuts; expand coverage |
+| **Reproductive Rights** | 100% anti-abortion voting record in State House; voted to ban abortion with no rape/incest exceptions; allegedly removed positions from website before debate | Supports abortion rights; pro-choice stance |
+| **Healthcare Access** | "Shouldn't have to run into burning building to get healthcare from your government" (firefighter context) | Healthcare affordability is top priority; expanding access |
+
+*Sources: Spotlight PA, DCCC, Yahoo News, campaign websites*
+
+---
+
+### **Labor & Jobs**
+
+| Issue | Ryan Mackenzie (R) | Bob Brooks (D) |
+|-------|-------------------|----------------|
+| **Union Support** | Received corporate PAC support (Lockheed Martin, Chevron, Comcast, etc.); traditional business backing | President of PA Professional Fire Fighters Association; endorsed by PA AFL-CIO |
+| **Job Creation** | Emphasizes deregulation and tax relief to spur manufacturing | Favors apprenticeships, trade programs; union labor focus ("labor unions built the middle class") |
+| **Worker Protections** | Supports business-friendly regulations | Expanding worker protections, workplace safety |
+
+*Sources: Campaign filings, DCCC, JStreetPAC, AFL-CIO endorsements*
+
+---
+
+### **Social Issues**
+
+| Issue | Ryan Mackenzie (R) | Bob Brooks (D) |
+|-------|-------------------|----------------|
+| **Abortion** | Anti-abortion; no exceptions for rape/incest per documented voting record | Pro-choice |
+| **Data Centers** | Initially supported fast-tracking; reversed position to oppose amid local pushback; now promises data centers "pay fair share" | Initially supported data centers; also reversed to opposition when politically advantageous per Mackenzie campaign claims |
+| **Immigration** | Border security emphasis (typical GOP platform) | Not prominently featured in available sources |
+
+*Sources: Keystone News Room, Spotlight PA, campaign statements*
+
+---
+
+## **Pennsylvania Governor: Josh Shapiro (D) vs. Stacy Garrity (R)**
+
+### **Education**
+
+| Issue | Josh Shapiro (D) | Stacy Garrity (R) |
+|-------|------------------|-------------------|
+| **Public Schools** | Increased EITC/OSTC funding by $200M+; proposed performance-based university funding pool ($30M proposed, $10M approved) | Supports public schools but favors expanded charter/cyber charter/private options |
+| **Voucher Programs** | Supported taxpayer-funded private school voucher program (EITC/OSTC); shift from typical Democrat position | Strongly supports school choice, scholarship programs via tax credits |
+| **Cyber Charter Funding** | Proposed $8K per-student base rate; later shifted to expense deduction approach | Not extensively detailed in available sources |
+| **Teacher Support** | Expanded career/technical education; additional teacher support | Not prominently detailed |
+
+*Sources: ABC27, Spotlight PA, WESA*
+
+---
+
+### **Energy & Environment**
+
+| Issue | Josh Shapiro (D) | Stacy Garrity (R) |
+|-------|------------------|-------------------|
+| **Natural Gas** | Supports continued production; diversified mix (gas, nuclear, renewable) | Focus primarily on natural gas expansion; blame Shapiro for higher energy costs |
+| **Clean Energy** | "Lightning Plan" — tax incentives for gas, nuclear, renewable + energy storage; cap-and-invest program for emissions | Pausing new data centers while developing ratepayer protections |
+| **Data Centers** | Supports with faster permitting and tax incentives | Calls for pause on new projects pending regulations |
+| **Electricity Prices** | Diversify supply rather than depend on single fuel source | Massive tax cut would lower utility bills immediately but cost state $1B+ |
+
+*Sources: WESA, WHYY, Spotlight PA, WTJX*
+
+---
+
+### **Taxes & Budget**
+
+| Issue | Josh Shapiro (D) | Stacy Garrity (R) |
+|-------|------------------|-------------------|
+| **Personal Income Tax** | Current rate 3.07%; no reduction proposed | Proposes reducing to 2.8%; Republican legislation supports this |
+| **Corporate Taxes** | Not prominently featured | Democrats propose offsetting personal tax cuts with corporate increases |
+| **Inheritance Tax** | No change proposed | Wants to eliminate "death tax" (inheritance tax) |
+| **Property Taxes** | Not prominently featured in gubernatorial context | Eliminate local property taxes (Libertarian Krawchuk also advocates this) |
+| **Budget Approach** | Invests in workforce programs/infrastructure using current revenue reserves | Fiscal discipline; tax cuts to stimulate growth |
+
+*Sources: WESA, City & State PA, Spotlight PA*
+
+---
+
+### **Social Policy**
+
+| Issue | Josh Shapiro (D) | Stacy Garrity (R) |
+|-------|------------------|-------------------|
+| **Abortion** | Vocal supporter; protected access via executive order; joined Reproductive Freedom Alliance; ended state contract with anti-abortion counseling | Long anti-abortion record; previously sold "Born to be Pro-Life" T-shirts; now says wouldn't sign ban (evolution noted) |
+| **LGBTQ Rights** | Supports Fairness Act; protective stance | Not extensively detailed in available sources |
+| **Marijuana** | Not prominently featured | Not prominently featured |
+| **Medicaid** | Supported; opposing federal cuts | Concerns about fraud; specifics limited |
+
+*Sources: Spotlight PA, WHYY, WGAL, Votebeat*
+
+---
+
+### **Third-Party Candidate**
+
+| Candidate | Party | Key Positions |
+|-----------|-------|---------------|
+| **Ken Krawchuk** | Libertarian | Eliminate local property taxes; expand school choice; use executive veto to curb state spending |
+
+*Source: Uploaded documents*
+
+---
+
+# 2. OUTSIDE SPENDING VERIFICATION (DARK MONEY & PAC EXPENDITURES)
+
+## **PA-07 U.S. House Race**
+
+### **Confirmed Outside Spending**
+
+| Committee | Type | Support/Oppose | Amount | Candidate Supported |
+|-----------|------|----------------|--------|---------------------|
+| **Stronger Together PA** | Super PAC | Support | >$1M | Bob Brooks (primary) |
+| **DCCC** | Party Committee | Support | Ads launched defending Brooks | Bob Brooks |
+| **NRCC** | Party Committee | Support | Statement endorsing Mackenzie | Ryan Mackenzie |
+| **AIPAC PAC / United Democracy Project** | Issue PAC | Support | $57,839 tracked | Ryan Mackenzie (direct/earmarked) |
+| **JStreetPAC** | Issue PAC | Endorsement | Not quantified publicly | Bob Brooks |
+| **House Majority PAC (HMP)** | Super PAC | Support | Not quantified in search results | Bob Brooks |
+| **Congressional Leadership Fund (CLF)** | Super PAC | Support | Not quantified in search results | Ryan Mackenzie |
+
+### **Key Observations:**
+
+1. **Brooks Primary Spending**: Approximately $2.1M total spent supporting Brooks in Democratic primary (Stronger Together PA >$1M, DCCC ads)
+2. **Mackenzie Corporate PAC Money**: Lockheed Martin ($2K), General Dynamics ($1K), Chevron ($5K), Constellation Energy ($4K), FirstEnergy ($2.5K), Eli Lilly ($2K), Honeywell ($2.5K), FedEx ($1K), HPE ($2K), Unum Group ($2.5K), Prudential ($3.5K) — per uploaded documents
+3. **Total Race Spending Estimate**: ~$16M spent over last two years (Quiver Quantitative)
+4. **Democratic vs Republican Party Spending**: Democrats outspent Republicans by $4.14M over two-year period
+5. **Pro-Israel PAC Money**: $57,839 directly/earmarked to Mackenzie; Brooks received support from JStreetPAC (pro-diplomacy, pro-Israel peace advocacy) — contrasting positions within Israel-support spectrum
+
+*Sources: QuiverQuantitative, DCCC, NRCC, WhoFundsMyRep, JStreetPAC, Ballotpedia*
+
+---
+
+## **Pennsylvania Governor Race**
+
+### **Confirmed Outside Spending & Major Donors**
+
+| Committee/Donor | Type | Amount | Recipient | Notes |
+|-----------------|------|--------|-----------|-------|
+| **Democratic Governors Association (DGA)** | Party Committee | $1.25M (since June 2026) | Josh Shapiro | Largest single PAC contribution in recent period |
+| **AFSCME PAC** | Labor Union | $500,000 | Josh Shapiro | Public employees union |
+| **Committee for a Better Tomorrow** | Trial Lawyers PAC | $250,000 | Josh Shapiro | Philadelphia Trial Lawyers Association |
+| **Teamsters Local 0115** | Labor Union | $250,000 | Josh Shapiro | |
+| **Pennsylvanians for the Disabled** | Issue PAC | $225,000 | Josh Shapiro | |
+| **Steamfitters Union COPE** | Labor Union | $200,000 | Josh Shapiro | Local 0420 |
+| **PSEA PACE** | Education Union | $150,000 | Josh Shapiro | Pennsylvania State Education Association |
+| **IAFF PAC** | Labor Union | $100,000 | Josh Shapiro | International Association of Fire Fighters |
+| **Operating Engineers Local 95** | Labor Union | $100,000 | Josh Shapiro | |
+| **84 Lumber (Maggie Hardy)** | Individual | $500,000 | Josh Shapiro | Largest individual donor |
+| **Suffolk Construction (John Fish)** | Individual | $250,000 | Josh Shapiro | |
+| **Anthropic AI Employees** | Individual | $100,000 combined | Josh Shapiro | Four executives/employees |
+| **PA Future Fund / Bob Asher** | PAC + Individual | $230K (PAC) + $75K (personal) | Stacy Garrity | Former GOP State Chair |
+| **Dave White** | Individual | $105,000 | Stacy Garrity | HVAC contractor, former GOP candidate |
+| **Building Together PAC** | PAC | $25,000 | Stacy Garrity | |
+| **Jeff Yass** | Billionaire Donor | Not quantified publicly | Garrity ecosystem | Funds school choice/free-market groups across state |
+
+### **Spending Disparities:**
+
+| Metric | Josh Shapiro | Stacy Garrity | Ratio |
+|--------|--------------|---------------|-------|
+| **Total Raised (CY 2026)** | $31.7M+ | ~$3.8M | 8.3:1 |
+| **Cash on Hand (Sept 14)** | $19.8M | $1.3-1.5M | 15:1 |
+| **Summer Spending (June-Sept)** | $31.8M | $1.58M | 20:1 |
+| **TV Ad Spending (Summer)** | $13.5M | $204,000 | 66:1 |
+| **Digital Ad Spending** | $5M | Not quantified | — |
+| **Out-of-State Donations** | ~50% of total | ~7-14% of total | Significant divergence |
+| **Campaign Filing Pages** | 4,922 pages | 826 pages | Reflects donation volume |
+
+### **GOP Downballot Support:**
+- State House/Senate Republican caucuses contributed ~$2.6M to state GOP committee
+- Democratic groups gave ~$830,000 to state Democratic committee (contrast noted)
+- Shapiro gave >$5.6M to state Democratic Party's PAC during summer
+
+### **Shapiro Spending Details:**
+- Travel costs: ~$1M total (almost $800K on private planes)
+- $84K to Virginia-based Advanced Aviation Team ("presidential-level service")
+- Hotel stays in 20+ locations (Aspen, San Francisco, Scranton, etc.)
+- ~$30K on meals
+
+*Sources: City & State PA, Spotlight PA, PennLive, ABC27, Yahoo News, Public Source, Politics PA*
+
+---
+
+## **Judicial Retention Context**
+
+### **Outside Spending in Judicial Races:**
+- **Typically very low spending** compared to candidate races
+- Retention elections are "low-interest, low-spending" per Spotlight PA
+- Only one statewide judge lost retention since 1968 (when state constitution updated)
+- Most spending comes from Bar Association endorsements and watchdog group voter guides
+
+*Source: Spotlight PA, Lehigh Valley Public Media*
+
+---
+
+# 3. JUDICIAL RETENTION RATINGS & EVALUATION RESOURCES
+
+## **2026 Pennsylvania Judicial Retention Elections**
+
+### **Appellate Courts Up for Retention (2026)**
+
+| Court | Judge | Party | Retention Year | Last Verified Rating |
+|-------|-------|-------|----------------|---------------------|
+| **Supreme Court** | Sallie Updyke Mundy | Republican | 2026 | Not verified in web search; 2017 appointment |
+| **Commonwealth Court** | Michael H. Wojcik | Democratic | 2026 | Previously "Recommended" (2025 retention) |
+
+### **Previous 2025 Retention Results (For Reference)**
+
+| Judge | Court | Result | Margin | Bar Rating (2025) |
+|-------|-------|--------|--------|-------------------|
+| Christine Donohue | Supreme Court | Retained | 61.5% Yes / 38.5% No | Recommended |
+| Kevin Dougherty | Supreme Court | Retained | ~61% Yes | Recommended |
+| David Wecht | Supreme Court | Retained | ~61.5% Yes | Recommended |
+| Alice Dubow | Superior Court | Retained | 62.4% Yes | Recommended |
+| Michael Wojcik | Commonwealth Court | Retained | 62.0% Yes | Recommended |
+
+*Sources: Spotlight PA, Wikipedia, Lehigh County Democratic Committee FAQ*
+
+---
+
+## **Lehigh County Common Pleas Judges**
+
+Based on Ballotpedia and local sources, these judges serve on the Lehigh County Court of Common Pleas. Their retention years vary based on initial election timing:
+
+| Judge | Initial Election | Next Retention |
+|-------|-----------------|----------------|
+| James T. Anthony | 2007 | Not 2026 (based on 10-year cycle) |
+| Melissa Pavlack | 2017 | Likely 2027 |
+| Joseph Walsh | Appointed | TBD |
+
+*Note: Specific 2026 Common Pleas retention candidates in Lehigh County were not identified in web search. Your exact ballot depends on your precinct.*
+
+---
+
+## **Where to Find Bar Association Ratings**
+
+### **Official Sources:**
+
+| Organization | Courts Covered | Website |
+|--------------|----------------|---------|
+| **Pennsylvania Bar Association (PBA) Judicial Evaluation Commission** | Statewide appellate courts (Supreme, Superior, Commonwealth) | `pabar.org` / `pavotesmart.org` |
+| **Lehigh County Bar Association** | Local Common Pleas judges | Contact via county bar directory |
+| **Pennsylvanians for Modern Courts** | Educational guides, questionnaires | `pmconline.org` |
+| **League of Women Voters** | Nonpartisan voter guides | `vote411.org` (by address) |
+
+### **Rating Categories:**
+- **Highly Recommended** (appellate courts only)
+- **Recommended**
+- **Not Recommended**
+
+*Source: Uploaded documents, PA Bar Association references*
+
+---
+
+## **Evaluation Criteria for Retention Votes**
+
+| Criterion | What to Look For |
+|-----------|------------------|
+| **Integrity & Ethics** | High ethical standards; no disciplinary actions; impartial rulings |
+| **Legal Ability** | Trial procedure experience; evidence rule mastery; clear written opinions |
+| **Judicial Temperament** | Courtesy, patience, even temper, fairness to all courtroom participants |
+| **Administrative Efficiency** | Decisiveness; manages dockets without excessive delays |
+| **Community & Public Service** | Commitment to improving justice administration and public education |
+
+*Source: Uploaded judicial retention documents*
+
+---
+
+## **How to Evaluate Judges on YOUR Ballot**
+
+1. **Check your sample ballot** at Lehigh County Voter Registration Office or PA Voter Services Portal
+2. **Look up specific judges** on:
+   - Ballotpedia (judge profile pages)
+   - Pennsylvania Bar Association website
+   - Pennsylvanians for Modern Courts voter guide
+3. **Review local bar association evaluations** (Lehigh County Bar Association for Common Pleas)
+4. **Read Spotlight PA judicial retention guides** for performance reporting
+
+---
+
+# SUMMARY TABLE: KEY METRICS ACROSS ALL RACES
+
+| Race | Candidate | Total Raised | Cash on Hand | Outside Spending Support | Primary Donor Base |
+|------|-----------|--------------|--------------|-------------------------|-------------------|
+| **PA-07** | Ryan Mackenzie (R) | $4.36M | $2.94M | NRCC, CLF, AIPAC ($58K) | Corporate PACs (defense, energy, tech, finance) |
+| **PA-07** | Bob Brooks (D) | $2.39M | $1.02M | DCCC, HMP, Stronger Together PA ($2.1M primary) | Small-dollar individuals (81.9%), labor unions |
+| **Governor** | Josh Shapiro (D) | $31.7M+ | $19.8M | DGA ($1.25M), AFSCME ($500K), unions (~$2M total) | 50% out-of-state; high-net-worth execs, labor, trial lawyers |
+| **Governor** | Stacy Garrity (R) | $3.8M | $1.3M | Limited quantified outside support | 86% in-state; local PACs, Jeff Yass ecosystem |
+| **Governor** | Ken Krawchuk (L) | Not disclosed | Not disclosed | None identified | Third-party base |
+
+---
+
+# SOURCES USED FOR THIS COMPILATION
+
+| Category | Primary Sources |
+|----------|-----------------|
+| **Candidate Profiles & Policy Positions** | Spotlight PA, WHYY, WESA, ABC27, McCall, Yahoo News, campaign websites |
+| **Campaign Finance** | Ballotpedia, QuiverQuantitative, City & State PA, Pennsylvania Dept. of State filings |
+| **Outside Spending** | DCCC, NRCC, QuiverQuantitative, WhoFundsMyRep, JStreetPAC |
+| **Judicial Retention** | Ballotpedia, Spotlight PA, Lehigh County Democratic Committee, Pennsylvania Bar Association references |
+| **Ballot Questions** | Ballotpedia, BoardDocs, WFMZ, Upper Lehigh website, Lehigh County Commissioner records |
+
+---
+
+# WHAT TO VERIFY WITH ADDITIONAL RESEARCH
+
+| Item | Why Uncertain | Recommended Verification Source |
+|------|---------------|--------------------------------|
+| **Exact judicial retention list for your precinct** | Ballotpedia didn't specify which Common Pleas judges are on Nov 2026 ballot | Your official sample ballot from Lehigh County Voter Registration Office |
+| **PBA Bar ratings for 2026 retention candidates** | Could not access 2026-specific ratings via web search | Pennsylvania Bar Association Judicial Evaluation Commission (pabar.org) |
+| **Complete pro-Israel PAC support breakdown for Brooks** | JStreetPAC endorsement confirmed, but dollar amounts not publicly disclosed | FEC filings or Ballotpedia candidate profiles |
+| **Data center position evolution timeline** | Both candidates reversed positions; timeline unclear | Keystone News Room, full campaign ad archives |
+| **Specific GOP outside spending supporting Garrity** | Less documented than Democratic spending; Jeff Yass influence noted but amounts not quantified | Pennsylvania Dept. of State campaign finance portal |
+
+---
+
 ## 1. CONSOLIDATED VOTER GUIDE — November 3, 2026
 
 ### **Federal & State Races**
