@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    color: #202124;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: #39228f;
+    color: white;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+a {
+    color: #302080;
+}
+
+a:focus-visible {
+    outline: 3px solid #e0a800;
+    outline-offset: 3px;
+}
+
+main {
+    padding: 1rem 0;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #f2f2f2;
+}
