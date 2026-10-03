@@ -1,39 +1,42 @@
 # Research archive
 
-This archive retains the research exports and source PDFs that were previously
-stored in the repository root. Filenames have been normalized for readability;
-the documents themselves are preserved.
+This directory preserves research exports, source PDFs, and working notes related to Pennsylvania election information and civic analysis.
 
-## Working notes
+Important: these files are working materials and may include draft, exploratory, or AI-generated notes. They are not automatically authoritative sources. Treat them as leads, drafts, or unverified references until a maintainer marks them as verified.
 
-- [Consolidated election analysis](consolidated-election-analysis.md)
-- [Voter guide and ballot questions](voter-guide-and-ballot-questions.md)
-- [Campaign finance charts and voting records](campaign-finance-charts-and-voting-records.md)
-- [Pennsylvania governor fundraising analysis](pa-governor-fundraising-analysis.md)
-- [PA-07 and governor campaign-finance comparison](pa-07-and-governor-campaign-finance-comparison.md)
-- [Candidate policy comparison and voter checklist](candidate-policy-comparison-and-voter-checklist.md)
-- [Candidate policy comparison and polling information](candidate-policy-comparison-and-polling-info.md)
-- [Repository setup recommendations](repository-setup-recommendations.md)
-- [Security-controls reference](security-controls-reference.md)
+## Scope
 
-## Source PDFs
+- preserve originals and derived research files without overwriting source material
+- keep working notes separate from public-facing site output
+- maintain source lineage and explicit verification status for material used in releases
 
-- [Ballot measure proposals 1](ballot-measure-proposals-01.pdf)
-- [Ballot measure proposals 2](ballot-measure-proposals-02.pdf)
-- [Ballot measure proposals 3](ballot-measure-proposals-03.pdf)
-- [Campaign finance sponsors](campaign-finance-sponsors.pdf)
-- [Printable voter checklist](printable-voter-checklist.pdf)
-- [Lehigh County ballot questions](lehigh-county-ballot-questions.pdf)
-- [Candidate and issue summary 1](candidate-and-issue-summary-01.pdf)
-- [Candidate and issue summary 2](candidate-and-issue-summary-02.pdf)
-- [Candidate voting records and endorsements 1](candidate-voting-records-and-endorsements-01.pdf)
-- [Candidate voting records and endorsements 2](candidate-voting-records-and-endorsements-02.pdf)
-- [Polling place lookup](polling-place-lookup.pdf)
-- [Pennsylvania judicial retention guide](pa-judicial-retention-guide.pdf)
-- [Public-figure image request](public-figure-image-request.pdf)
-- [Lehigh County voting questions](lehigh-county-voting-questions.pdf)
-- [Pennsylvania ballot questions 1](pa-ballot-questions-01.pdf)
-- [Pennsylvania ballot questions 2](pa-ballot-questions-02.pdf)
-- [Mail-in ballot drop boxes](mail-in-ballot-drop-boxes.pdf)
-- [Pennsylvania General Assembly candidates](pa-general-assembly-candidates.pdf)
-- [Recent candidate background](recent-candidate-background.pdf)
+## Working notes policy
+
+Files in this directory may include:
+
+- rough summaries
+- campaign-finance notes
+- ballot-question drafts
+- issue comparisons
+- AI-assisted research output
+
+These materials should not be relied on as final factual statements unless they are explicitly reviewed and marked verified.
+
+## When a document is considered verified
+
+A note, chart, or data file is considered verified only when it has:
+
+- a clear source trail
+- at least one official or public-source reference where possible
+- a status label such as `verified`, `needs_review`, `unverified`, `conflicting`, or `superseded`
+- no contradictory records left unresolved
+
+## Published material and public site
+
+The public web output in `public/` is the official published view. Research materials in this directory are supporting context and must not be treated as site content unless a maintainer explicitly moves or republishes them.
+
+## See also
+
+- `README.md` — repository overview and scope
+- `VERIFICATION.md` — repo-specific verification notes and caveats
+- `MANIFEST.json` — generated duplicate and inventory awareness for research files
