@@ -1,13 +1,6 @@
 name: Deploy to Pages & Wiki
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'public/**'
-      - 'docs/**'
-      - '.github/workflows/deploy-pages-wiki.yml'
-  
   workflow_dispatch:
     inputs:
       target:
@@ -16,10 +9,16 @@ on:
         default: 'both'
         type: choice
         options: [pages, wiki, both]
+  repository_dispatch:
+    types: [deploy]
 
 jobs:
   deploy-pages:
-    if: github.event.inputs.target == 'pages' || github.event.inputs.target == 'both' || github.event.action == 'push'
+    if: >-
+      (github.event_name == 'workflow_dispatch' &&
+        (inputs.target == 'pages' || inputs.target == 'both')) ||
+      (github.event_name == 'repository_dispatch' &&
+        (github.event.client_payload.target == 'pages' || github.event.client_payload.target == 'both'))
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -47,7 +46,11 @@ jobs:
         uses: actions/deploy-pages@v4
 
   deploy-wiki:
-    if: github.event.inputs.target == 'wiki' || github.event.inputs.target == 'both' || github.event.action == 'push'
+    if: >-
+      (github.event_name == 'workflow_dispatch' &&
+        (inputs.target == 'wiki' || inputs.target == 'both')) ||
+      (github.event_name == 'repository_dispatch' &&
+        (github.event.client_payload.target == 'wiki' || github.event.client_payload.target == 'both'))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -55,18 +58,34 @@ jobs:
       
       - name: Sync to Wiki
         env:
-          # OPSEC: Using PAT instead of GITHUB_TOKEN for cross-repo access
           WIKI_TOKEN: ${{ secrets.WIKI_SYNC_TOKEN }}
         run: |
-          git clone https://x-access-token:${WIKI_TOKEN}@github.com/${{ github.repository }}.wiki.git wiki-temp
-          # Use rsync or targeted cp to avoid overwriting .git metadata
+          if [[ -z "$WIKI_TOKEN" ]]; then
+            echo "WIKI_SYNC_TOKEN is required to deploy the wiki." >&2
+            exit 1
+          fi
+          askpass="$RUNNER_TEMP/wiki-askpass.sh"
+          cat > "$askpass" <<'ASKPASS'
+          #!/bin/sh
+          case "$1" in
+            *Username*) printf '%s\n' x-access-token ;;
+            *Password*) printf '%s\n' "$WIKI_TOKEN" ;;
+            *) exit 1 ;;
+          esac
+          ASKPASS
+          chmod 700 "$askpass"
+          trap 'rm -f "$askpass"' EXIT
+          GIT_ASKPASS="$askpass" GIT_TERMINAL_PROMPT=0 \
+            git clone "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki-temp
           cp -R docs/. wiki-temp/
           cd wiki-temp
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add .
-          git diff-index --quiet HEAD || git commit -m "Sync from main repo: ${{ github.sha }}"
-          git push origin master
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Sync from main repo: ${GITHUB_SHA}"
+            GIT_ASKPASS="$askpass" GIT_TERMINAL_PROMPT=0 git push origin HEAD
+          fi
 
   notify:
     needs: [deploy-pages, deploy-wiki]

@@ -1,8 +1,12 @@
-name: Deploy Static Site to GitHub Pages
+name: Deploy site to GitHub Pages
 
 on:
   push:
     branches: ["main"]
+    paths:
+      - "public/**"
+      - ".github/workflows/main.yml"
+      - ".github/workflows/static.yml"
   workflow_dispatch:
 
 permissions:
@@ -11,28 +15,9 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
-
-defaults:
-  run:
-    shell: bash
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-      
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+    uses: ./.github/workflows/static.yml
