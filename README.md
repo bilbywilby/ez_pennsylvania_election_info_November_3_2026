@@ -1,39 +1,93 @@
-# Research archive
+# Pennsylvania Election Information — November 3, 2026
 
-This archive retains the research exports and source PDFs that were previously
-stored in the repository root. Filenames have been normalized for readability;
-the documents themselves are preserved.
+This repository is a nonpartisan civic-technology project for Pennsylvania election information, ballot measures, public records, source documents, accessible voter guides, and reproducible data-processing workflows.
 
-## Working notes
+It is built to help people find verified election information without endorsing any candidate, ballot position, or political party. The project is informational only and should not be treated as official legal, campaign, or government advice.
 
-- [Consolidated election analysis](consolidated-election-analysis.md)
-- [Voter guide and ballot questions](voter-guide-and-ballot-questions.md)
-- [Campaign finance charts and voting records](campaign-finance-charts-and-voting-records.md)
-- [Pennsylvania governor fundraising analysis](pa-governor-fundraising-analysis.md)
-- [PA-07 and governor campaign-finance comparison](pa-07-and-governor-campaign-finance-comparison.md)
-- [Candidate policy comparison and voter checklist](candidate-policy-comparison-and-voter-checklist.md)
-- [Candidate policy comparison and polling information](candidate-policy-comparison-and-polling-info.md)
-- [Repository setup recommendations](repository-setup-recommendations.md)
-- [Security-controls reference](security-controls-reference.md)
+## Mission
 
-## Source PDFs
+- provide trustworthy, reproducible election information for Pennsylvania
+- preserve public-source lineage for factual claims
+- keep source materials and working research separate from published content
+- support accessible, offline-friendly public information workflows
+- make verification possible for journalists, researchers, and community contributors
 
-- [Ballot measure proposals 1](ballot-measure-proposals-01.pdf)
-- [Ballot measure proposals 2](ballot-measure-proposals-02.pdf)
-- [Ballot measure proposals 3](ballot-measure-proposals-03.pdf)
-- [Campaign finance sponsors](campaign-finance-sponsors.pdf)
-- [Printable voter checklist](printable-voter-checklist.pdf)
-- [Lehigh County ballot questions](lehigh-county-ballot-questions.pdf)
-- [Candidate and issue summary 1](candidate-and-issue-summary-01.pdf)
-- [Candidate and issue summary 2](candidate-and-issue-summary-02.pdf)
-- [Candidate voting records and endorsements 1](candidate-voting-records-and-endorsements-01.pdf)
-- [Candidate voting records and endorsements 2](candidate-voting-records-and-endorsements-02.pdf)
-- [Polling place lookup](polling-place-lookup.pdf)
-- [Pennsylvania judicial retention guide](pa-judicial-retention-guide.pdf)
-- [Public-figure image request](public-figure-image-request.pdf)
-- [Lehigh County voting questions](lehigh-county-voting-questions.pdf)
-- [Pennsylvania ballot questions 1](pa-ballot-questions-01.pdf)
-- [Pennsylvania ballot questions 2](pa-ballot-questions-02.pdf)
-- [Mail-in ballot drop boxes](mail-in-ballot-drop-boxes.pdf)
-- [Pennsylvania General Assembly candidates](pa-general-assembly-candidates.pdf)
-- [Recent candidate background](recent-candidate-background.pdf)
+## Repository structure
+
+- `public/` — published site output for GitHub Pages and public-facing HTML
+- `research/` — preserved source documents, PDFs, and working notes; draft notes are not final sources
+- `data/` — structured facts, source metadata, and provenance records
+- `tools/` — scripts for building, validating, checking links, and generating derived outputs
+- `tests/` — validation and regression tests
+- `.github/workflows/` — CI and deployment automation
+- `docs/` — project documentation and wiki source materials when present
+
+## Important policy: published content vs. research
+
+This repository keeps three different layers of material:
+
+- `public/` contains published information intended for public consumption.
+- `data/` contains validated or review-ready structured facts and provenance.
+- `research/` contains source PDFs, working notes, and exploratory analysis.
+
+AI-generated research notes, drafts, and chat exports may live in `research/`, but they are not authoritative sources by default. They should be treated as leads, working notes, or unverified material until a maintainer marks them as verified.
+
+If a fact is missing, contradictory, stale, or unverified, label it explicitly with statuses such as `unknown`, `unverified`, `conflicting`, `superseded`, or `needs_review`.
+
+## Verification standards
+
+For any public claim, the project prefers an explicit source trail with:
+
+- stable source ID
+- title or filename
+- official URL or repository path
+- retrieval or publication date
+- page, section, or line reference where available
+- verification status
+- review timestamp
+
+The validation suite is intended to enforce these expectations before a site or dataset is published.
+
+## Local checks
+
+Use the project validation scripts before merging or publishing changes:
+
+```bash
+python tools/build_site.py
+python tools/finance_check.py
+python validate.py
+```
+
+## Contributor expectations
+
+Please read `CONTRIBUTING.md` before opening a pull request.
+
+Contributors are expected to:
+
+- remain nonpartisan and neutral
+- preserve research materials instead of deleting them without clear intent
+- use official government or public-source material when possible
+- cite sources and verification status explicitly
+- avoid publishing claims that have not been checked
+- prefer small, reviewable changes
+
+## Maintainer expectations
+
+The repository maintainer’s role is to keep the project accurate, transparent, and reproducible. In practice that means:
+
+- preserving source documents and research archives
+- separating raw research from published site content
+- validating changes before deployment
+- avoiding destructive overwrites of source material
+- documenting uncertainty when information is incomplete
+
+## Project-specific references
+
+- `.github/agents/repo-maintainer.agent.md` — maintainer rules for this repository
+- `research/VERIFICATION.md` — verification notes and known caveats
+- `research/README.md` — description of research materials and preservation policy
+- `public/index.html` — generated public page for election deadlines and links
+
+## Disclaimer
+
+This project is an independent informational project and is not an official government resource. Always confirm critical dates, ballot content, polling locations, or legal requirements against current official sources before acting.
